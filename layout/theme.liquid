@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Recently Viewed Product - Vue</title>
+    
+
+
+    <!-- START ===== RECENT VIEWED PRODUCT -->
+    <script src="https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js"></script>
+    <script defer src="{{ 'js_recent_viewed_products.js' | asset_url }}"></script>
+    <!-- END ===== RECENT VIEWED PRODUCT -->
+
+
+    <!-- YOUR CONTENT-->
+    {{ content_for_header }}
+
+</head>
+<body>
+    
+    <!-- YOUR CONTENT-->
+    {{ content_for_layout }}
+
+</body>
+</html>
